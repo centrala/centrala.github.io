@@ -1,0 +1,165 @@
+li{
+	font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 1.2em; font-color: #000000
+}
+
+li.myown
+	{font-weight: 700;
+	color: #000000;
+	border-bottom: 5px solid #000;
+	background-color: #fff;
+	height: 45px;
+	}	
+
+.navbar
+{background-color: #fff;
+border: 0px; 
+height: 50px;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+body{
+	padding-top: 100px
+}
+
+h1{
+	font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 1.2em; color: #000; padding-bottom: 10px; text-transform: uppercase
+}
+
+p{
+	font-family: 'Source Sans Pro', sans-serif; font-weight: 400; font-size: 1em; color: #000
+}
+
+p.cast{
+	font-weight: 700;
+}
+
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   
+}
+
+.row {
+	padding-bottom: 100px
+}
+
+
+label { 
+   position: absolute; 
+   bottom: 10%; 
+   left: 0; 
+   width: 100%; 
+}
+
+label span { 
+   color: white; 
+   font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 0.75em;   
+   background: rgb(0, 0, 0);
+   padding: 6px; 
+}
+
+h3 {
+	position: absolute;
+	bottom: -10px;
+	left: 0px;
+	width: 100%;
+	background-color: #000;
+	padding: 10px;
+	text-align: left;
+	text-indent: 10%
+
+	
+}
+
+h3 span {
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 1.5em;
+
+	
+}
+
+#cover {
+	height: 500px
+}
+#main {
+	background-color: #fff;
+	z-index: 1000
+}
+
+.bg-chopin {
+  background: url('file:///Users/magdazadara/Documents/work/centrala/website/img/chopin/7_hd.jpg') no-repeat center left;
+  position: absolute;
+  width: 100%;
+  height: 500px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  height: 500px;
+  color: white;
+  background:transparent;
+}
+
+iframe {
+	height:400px;
+}
+
+#thumb {
+	height:170px;
+	overflow: hidden
+}
+
+footer {
+	font-size: 0.75em; font-family: 'Source Sans Pro', sans-serif; color:#303030; text-align: center; padding-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+	label span {font-size: 1.2em}
+	h3 span {font-size: 1em}
+	.bg-chopin {background: url('file:///Users/magdazadara/Documents/work/centrala/website/img/chopin/7_sm.jpg') no-repeat center left;}
+	h3 {text-indent: 13%}
+	iframe {height:300px}
+	#thumb {height:100px; overflow: hidden}
+}
+
+@media (max-width: 767px) {
+	body{padding-top: 70px}
+	h1{font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 1.5em; color: #000; padding-bottom: 10px; text-transform: uppercase}
+	p{font-family: 'Source Sans Pro', sans-serif; font-weight: 400; font-size: 1.2em; color: #000}
+	label span {font-size: 1em}
+	li.myown {border-bottom: none; background-color: #fff}
+	li {background-color: #fff;}
+	h3 span {font-size: 1em}
+	.bg-chopin {background: url('file:///Users/magdazadara/Documents/work/centrala/website/img/chopin/7.jpg') no-repeat center left;}
+	h3 {text-indent: 2%}
+	iframe {height:200px}
+	#thumb {width: 400px; height:300px; overflow: hidden; }
+	}
+
+
+
+
