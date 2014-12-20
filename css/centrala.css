@@ -120,19 +120,19 @@ h3 span {
 }
 
 .bg-chopin {
-  background: url('.../img/chopin/cover_hd.jpg') no-repeat center left;
+  background: url('/img/chopin/cover_hd.jpg') no-repeat center left;
 }
 
 .bg-elementarz {
-	background: url('.../img/elementarz/cover_hd.jpg') no-repeat center center;
+	background: url('/img/elementarz/cover_hd.jpg') no-repeat center center;
 }
 
 .bg-wbo {
-	background: url('.../img/wbo/cover_hd.jpg') no-repeat center center;
+	background: url('/img/wbo/cover_hd.jpg') no-repeat center center;
 }
 
 .bg-szapo {
-	background: url('.../img/szapo/cover_hd.jpg') no-repeat center center;
+	background: url('/img/szapo/cover_hd.jpg') no-repeat center center;
 }
 
 .bg-chopin, .bg-elementarz, .bg-wbo, .bg-szapo {
