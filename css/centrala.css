@@ -120,19 +120,19 @@ h3 span {
 }
 
 .bg-chopin {
-  background: url('file:///Users/magdazadara/Documents/work/centrala/website/img/chopin/cover_hd.jpg') no-repeat center left;
+  background: url('/img/chopin/cover_hd.jpg') no-repeat center center;
 }
 
 .bg-elementarz {
-	background: url('file:///Users/magdazadara/Documents/work/centrala/website/img/elementarz/cover_hd.jpg') no-repeat center center;
+	background: url('/img/elementarz/cover_hd.jpg') no-repeat center center;
 }
 
 .bg-wbo {
-	background: url('file:///Users/magdazadara/Documents/work/centrala/website/img/wbo/cover_hd.jpg') no-repeat center center;
+	background: url('/img/wbo/cover_hd.jpg') no-repeat center center;
 }
 
 .bg-szapo {
-	background: url('file:///Users/magdazadara/Documents/work/centrala/website/img/szapo/cover_hd.jpg') no-repeat center center;
+	background: url('/img/szapo/cover_hd.jpg') no-repeat center center;
 }
 
 .bg-chopin, .bg-elementarz, .bg-wbo, .bg-szapo {
@@ -156,7 +156,7 @@ iframe {
 }
 
 #thumb {
-	height:175px;
+	height: 175px;
 	overflow: hidden
 }
 
@@ -168,10 +168,10 @@ footer {
 @media (max-width: 991px) {
 	label span {font-size: 1.2em}
 	h3 span {font-size: 1em}
-	.bg-chopin {background: url('file:///Users/magdazadara/Documents/work/centrala/website/img/chopin/cover_sm.jpg') no-repeat center left;}
-	.bg-elementarz {background: url('file:///Users/magdazadara/Documents/work/centrala/website/img/elementarz/cover_sm.jpg') no-repeat center center;}
-	.bg-wbo {background: url('file:///Users/magdazadara/Documents/work/centrala/website/img/wbo/cover_sm.jpg') no-repeat center center;}
-	.bg-szapo {background: url('file:///Users/magdazadara/Documents/work/centrala/website/img/szapo/cover_sm.jpg') no-repeat center center;}
+	.bg-chopin {background: url('/img/chopin/cover_sm.jpg') no-repeat center center;}
+	.bg-elementarz {background: url('/img/elementarz/cover_sm.jpg') no-repeat center center;}
+	.bg-wbo {background: url('/img/wbo/cover_sm.jpg') no-repeat center center;}
+	.bg-szapo {background: url('/img/szapo/cover_sm.jpg') no-repeat center center;}
 	h3 {text-indent: 13%}
 	iframe {height:300px}
 	#thumb {height:100px; overflow: hidden}
@@ -185,10 +185,10 @@ footer {
 	li.myown {border-bottom: none; background-color: #fff}
 	li {background-color: #fff;}
 	h3 span {font-size: 1em}
-	.bg-chopin {background: url('file:///Users/magdazadara/Documents/work/centrala/website/img/chopin/cover.jpg') no-repeat center left;}
-	.bg-elementarz {background: url('file:///Users/magdazadara/Documents/work/centrala/website/img/elementarz/cover.jpg') no-repeat center center;}
-	.bg-wbo {background: url('file:///Users/magdazadara/Documents/work/centrala/website/img/wbo/cover.jpg') no-repeat center center;}
-	.bg-szapo {background: url('file:///Users/magdazadara/Documents/work/centrala/website/img/szapo/cover.jpg') no-repeat center center;}
+	.bg-chopin {background: url('/img/chopin/cover.jpg') no-repeat center center;}
+	.bg-elementarz {background: url('/img/elementarz/cover.jpg') no-repeat center center;}
+	.bg-wbo {background: url('/img/wbo/cover.jpg') no-repeat center center;}
+	.bg-szapo {background: url('/img/szapo/cover.jpg') no-repeat center center;}
 	h3 {text-indent: 2%}
 	iframe {height:200px}
 	#thumb {width: 400px; height:300px; overflow: hidden; }
