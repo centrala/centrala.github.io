@@ -134,7 +134,7 @@ h3.faces {
 }
 
 #about {
-	margin-top: 100px
+	margin-top: 50px
 }
 
 #stempel {
@@ -265,7 +265,7 @@ footer {
 		pointer-events: none;
    		cursor: default
 	}
-	.modal-dialog {width: 90%;}
+	.modal-dialog {width: 90%; top: 5%; left: 5%; translate:(0,0);}
 	}
 
 
