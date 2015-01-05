@@ -58,6 +58,7 @@
       </nav>
     <div class="container">
       <div class="row" id="about"> 
+        <div class="visible-sm visible-lg visible-xl">
         <div class="col-xs-12 col-sm-12 col-lg-8">
               <p>ludzie<b> CENTRALI</b></p>
 
@@ -89,7 +90,41 @@
               <a href="#" data-toggle="modal" data-target="#oz">
                 <p><b>Oliwia Ziębińska</b>/logistyka, dokumentacja, design</p></a>  
           </div>  
-      </div>  
+      </div>   
+      <div class="hidden-sm hidden-lg hidden-xl">
+        <div class="col-xs-12 col-sm-12 col-lg-8">
+              <p>ludzie<b> CENTRALI</b></p>
+
+          <br>
+              <a href="kb.html">
+                <p><b>Krzysztof Bieliński</b>/fotografia</p></a>
+              <a href="ab.html">
+                <p><b>Arkadiusz Brykalski</b>/aktorstwo</p></a>
+              <a href="ac.html">
+                <p><b>Anna Czerniawska</b>/dramaturgia, produkcja</p></a>
+              <a href="jd.html">
+                <p><b>Jan Duszyński</b>/muzyka, trailery</p>  </a>
+              <a href="ak.html">
+                <p><b>Allen Kuharski</b>/teksty</p>  </a>
+              <a href="mk.html">
+                <p><b>Marta Kuźmiak</b>/menedżment, produkcja</p> </a> 
+              <a href="rr.html">
+                <p><b>Robert Rumas</b>/scenografia, budowa, malarstwo</p>  </a>
+              <a href="as.html" >
+                <p><b>Artur Sienicki</b>/światła, wideo</p>  </a>
+              <a href="ar.html" >
+                <p><b>Arkadiusz Ślesiński</b>/kostiumy, design, budowa</p> </a> 
+              <a href="bw.html" >
+                <p><b>Barbara Wysocka</b>/aktorstwo, reżyseria</p> </a>
+              <a href="mz.html" >
+                <p><b>Magdalena Zadara</b>/design, tłumaczenie, IT</p> </a> 
+              <a href="mi.html" >
+                <p><b>Michał Zadara</b>/reżyseria, administracja</p> </a>
+              <a href="oz.html" >
+                <p><b>Oliwia Ziębińska</b>/logistyka, dokumentacja, design</p></a>  
+          </div>
+          </div>  
+      </div>
 
          
 
@@ -471,36 +506,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
-<script>// iOS check...ugly but necessary
-if( navigator.userAgent.match(/iPhone|iPad|iPod/i) ) {
-    $('.modal').on('show.bs.modal', function() {
-        // Position modal absolute and bump it down to the scrollPosition
-        $(this)
-            .css({
-                position: 'absolute',
-                marginTop: $(window).scrollTop() + 'px',
-                bottom: 'auto'
-            });
-        // Position backdrop absolute and make it span the entire page
-        //
-        // Also dirty, but we need to tap into the backdrop after Boostrap 
-        // positions it but before transitions finish.
-        //
-        setTimeout( function() {
-            $('.modal-backdrop').css({
-                position: 'absolute', 
-                top: 0, 
-                left: 0,
-                width: '100%',
-                height: Math.max(
-                    document.body.scrollHeight, document.documentElement.scrollHeight,
-                    document.body.offsetHeight, document.documentElement.offsetHeight,
-                    document.body.clientHeight, document.documentElement.clientHeight
-                ) + 'px'
-            });
-        }, 0);
-    });
-}
-</script>
+
   </body>
 </html>

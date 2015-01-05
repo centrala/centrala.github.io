@@ -57,7 +57,9 @@ p.cast{
 	font-weight: 700;
 }
 
-
+h4 {
+	font-family: inherit; font-size: 1em; color: inherit; opacity: 0.3
+}
 
 p span {
 	max-width: 100px;
@@ -143,6 +145,13 @@ h3.faces {
 
 #spektakle {
 	margin-bottom: 50px
+}
+
+#fake-modal {
+	position: absolute;
+	right: 5%;
+	opacity: .3;
+	
 }
 
 .bg-chopin {
