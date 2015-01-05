@@ -228,6 +228,8 @@ footer {
 
 #modal {width: 100%;}
 
+
+
 @media (max-width: 991px) {
 	label span {font-size: 1.2em}
 	h3 span {font-size: 1em}
@@ -265,8 +267,7 @@ footer {
 		pointer-events: none;
    		cursor: default
 	}
-	.modal-dialog {width: 90%; top: 5%; left: 5%;}
-	.modal-content {translate:(0,0);}
+	.modal-dialog {width: 90%; }
 	}
 
 
