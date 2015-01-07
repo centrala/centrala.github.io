@@ -38,7 +38,8 @@ a:active {
 }
 
 body{
-	padding-top: 100px
+	padding-top: 100px;
+	margin-bottom: 20px;
 }
 
 h1{
@@ -237,6 +238,14 @@ footer {
 
 .close {
 	font-size: 1em;
+}
+
+.footer {
+	font-size: 0.75em; font-family: 'Source Sans Pro', sans-serif; color:#303030;
+	position: absolute;
+	bottom: 0px;
+	right: 50%;
+	text-align: center;
 }
 
 #modal {width: 100%;}
