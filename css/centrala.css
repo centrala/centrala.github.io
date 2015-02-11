@@ -1,3 +1,9 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
 li{
 	font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 1.2em; font-color: #000000
 }
@@ -39,7 +45,25 @@ a:active {
 
 body{
 	padding-top: 100px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
+}
+
+footer {
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+
+}
+
+a.foot {
+	color: #ff0000;
+}
+
+p.foot {
+	font-size: 1.2em;
 }
 
 h1{
@@ -90,13 +114,13 @@ label {
 
 label span { 
    color: white; 
-   font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 0.75em;   
+   font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 1em;   
    background: rgb(0, 0, 0);
-   padding: 6px; 
+   padding: 4px; 
 }
 
 label span.spacer {
-   padding: 3px;
+   padding: 1px;
 }
 
 label.faces {
