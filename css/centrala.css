@@ -65,7 +65,7 @@ footer {
 }
 
 a.foot {
-	color: #ff0000;
+	text-decoration: underline;
 }
 
 p.foot {
