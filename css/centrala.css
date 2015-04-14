@@ -3,6 +3,9 @@ html {
     min-height: 100%;
 }
 
+@-ms-viewport{
+  width: device-width;
+}
 
 li{
 	font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 1.2em; font-color: #000000
@@ -337,8 +340,6 @@ li.myown{
 	}	
 	}
 
-@-ms-viewport{
-  width: device-width;
-}
+
 
 
