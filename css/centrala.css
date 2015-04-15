@@ -3,9 +3,7 @@ html {
     min-height: 100%;
 }
 
-@-ms-viewport{
-  width: device-width;
-}
+
 
 li{
 	font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 1.2em; font-color: #000000
@@ -26,6 +24,8 @@ li.myown
 border: 0px; 
 height: 50px;
 }
+
+
 
 a:link {
 	color: #000000;
@@ -300,7 +300,7 @@ footer {
 	h3 {text-indent: 13%}
 	iframe {height:300px}
 	#thumb {height:100px; overflow: hidden}
-	.navbar-nav {margin-top: 0px}
+	.navbar-nav {margin-top: 0px; background-color: white;}
 	
 	
 }
