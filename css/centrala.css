@@ -301,6 +301,15 @@ footer {
 	iframe {height:300px}
 	#thumb {height:100px; overflow: hidden}
 	.navbar-nav {margin-top: 0px; background-color: white;}
+	li.myown{
+	margin-bottom: 0px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-top: 0px;
+	}
+
+	}
 	
 	
 }
@@ -331,13 +340,7 @@ footer {
 	img.faces {
 	padding-top: 15px; max-width: 250px;
 }
-li.myown{
-	margin-bottom: 0px;
-	padding-left: 5px;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	margin-top: 0px;
-	}	
+	
 	}
 
 
