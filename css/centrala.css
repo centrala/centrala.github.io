@@ -146,10 +146,6 @@ h3 {
 
 }
 
-
-
-}
-
 h3.faces {
 	font-size: .7em;
 	text-indent: 0;
@@ -157,7 +153,7 @@ h3.faces {
 }
 
 #cover {
-	height: 500px
+	height: 480px
 }
 #main {
 	background-color: #fff;
@@ -337,7 +333,7 @@ footer {
 	.bg-awantura {background: url('/img/awantura/cover.jpg') no-repeat center center;}
 	.bg-wycho {background: url('/img/wycho/cover.jpg') no-repeat center center;}
   .bg-lilla {background: url('/img/lilla/cover.jpg') no-repeat center center;}
-	h3{font-size: 1.875em}
+	h3{font-size: 1.2em}
 	iframe {height:200px}
 	#thumb {width: 400px; height:300px; overflow: hidden; }
 	a.nomobile {
