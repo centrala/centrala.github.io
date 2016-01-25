@@ -235,7 +235,7 @@ h3.faces {
 }
 
 iframe {
-	height:400px;
+	height:280px;
 }
 
 #thumb {
@@ -281,6 +281,13 @@ footer {
 	bottom: 0px;
 	right: 50%;
 	text-align: center;
+}
+
+.caption {
+  font-size: .75em; font-family: 'Source Sans Pro';
+  color: #656565;
+  text-align: center;
+  display: block;
 }
 
 #modal {width: 100%;}
