@@ -283,16 +283,16 @@ footer {
 	text-align: center;
 }
 
+
+
+#modal {width: 100%;}
+
 .caption {
   font-size: .75em; font-family: 'Source Sans Pro';
   color: #656565;
   text-align: center;
   display: block;
 }
-
-#modal {width: 100%;}
-
-
 
 @media (max-width: 991px) {
 	label span {font-size: 1.2em}
