@@ -55,7 +55,7 @@ a:active {
 body{
 	padding-top: 100px;
 	margin-bottom: 50px;
-  font-family: Source Sans Pro; 
+  font-family: Source Sans Pro;
 }
 
 footer {
@@ -288,7 +288,7 @@ footer {
 
 #modal {width: 100%;}
 
-.caption {
+span.caption {
   font-size: .75em; font-family: 'Source Sans Pro';
   color: #656565;
   text-align: center;
